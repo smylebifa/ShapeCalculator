@@ -1,6 +1,8 @@
 import Shapes
 
-def get_side_from_user(side_name:str):
+
+# Get side from user
+def get_side_from_user(side_name:str)
   side = 0
   while not isinstance(side, float):
       try:
@@ -11,7 +13,9 @@ def get_side_from_user(side_name:str):
   return side
 
 
+# Define shape and return sides
 def asking_for_enter_side_or_radius(param:str):
+    
     if (param == 'Circle' or param == 'Sphere'):
         return get_side_from_user('radius')
     
@@ -51,6 +55,7 @@ def asking_for_enter_side_or_radius(param:str):
         return [radius, height]
 
 
+# Define shape and return it's object
 def define_shape(shape:str):
     if (shape == 'Square'):
         side = asking_for_enter_side_or_radius('Square')    
