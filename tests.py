@@ -1,42 +1,42 @@
-import ShapesTests
+import shapes_tests
 
-testSquare = ShapesTests.TestSquare() 
+testSquare = shapes_tests.TestSquare() 
 testSquare.test_area()
 testSquare.test_perimeter()
 
-testCube = ShapesTests.TestCube() 
+testCube = shapes_tests.TestCube() 
 testCube.test_area()
 
-testRectangle = ShapesTests.TestRectangle() 
+testRectangle = shapes_tests.TestRectangle() 
 testRectangle.test_area()
 testRectangle.test_perimeter()
 
-testTrapezoid = ShapesTests.TestTrapezoid() 
+testTrapezoid = shapes_tests.TestTrapezoid() 
 testTrapezoid.test_area()
 
-testRhombus = ShapesTests.TestRhombus() 
+testRhombus = shapes_tests.TestRhombus() 
 testRhombus.test_area()
 testRhombus.test_perimeter()
 
-testTriangle = ShapesTests.TestTriangle() 
+testTriangle = shapes_tests.TestTriangle() 
 testTriangle.test_area()
 
-testParallelepiped = ShapesTests.TestParallelepiped() 
+testParallelepiped = shapes_tests.TestParallelepiped() 
 testParallelepiped.test_area()
 
-testPyramid = ShapesTests.TestPyramid() 
+testPyramid = shapes_tests.TestPyramid() 
 testPyramid.test_area()
 testPyramid.test_perimeter()
 
-testCircle = ShapesTests.TestCircle() 
+testCircle = shapes_tests.TestCircle() 
 testCircle.test_area()
 testCircle.test_perimeter()
 
-testSphere = ShapesTests.TestSphere() 
+testSphere = shapes_tests.TestSphere() 
 testSphere.test_area()
 
-testCylinder = ShapesTests.TestCylinder() 
+testCylinder = shapes_tests.TestCylinder() 
 testCylinder.test_area()
 
-testCone = ShapesTests.TestCone() 
+testCone = shapes_tests.TestCone() 
 testCone.test_area()

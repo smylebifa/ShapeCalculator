@@ -1,15 +1,15 @@
-import Shapes
+import shapes
 import unittest
 
 class TestSquare(unittest.TestCase):
 
     def test_area(self):
-        square = Shapes.Square(5)
+        square = shapes.Square(5)
         result = square.area()                                        
         self.assertEqual(result, 25)
     
     def test_perimeter(self):
-        square = Shapes.Square(2)
+        square = shapes.Square(2)
         result = square.perimeter()                                        
         self.assertEqual(result, 8)
 
@@ -17,12 +17,12 @@ class TestSquare(unittest.TestCase):
 class TestCube(unittest.TestCase):
 
     def test_area(self):
-        cube = Shapes.Cube(5)
+        cube = shapes.Cube(5)
         result = cube.area()                                        
         self.assertEqual(result, 150)
     
     def test_perimeter(self):
-        cube = Shapes.Cube(2)
+        cube = shapes.Cube(2)
         result = cube.perimeter()                                        
         self.assertEqual(result, 24)
 
@@ -30,12 +30,12 @@ class TestCube(unittest.TestCase):
 class TestRectangle(unittest.TestCase):
 
     def test_area(self):
-        rectangle = Shapes.Rectangle(5, 10)
+        rectangle = shapes.Rectangle(5, 10)
         result = rectangle.area()                                        
         self.assertEqual(result, 50)
     
     def test_perimeter(self):
-        rectangle = Shapes.Rectangle(5, 10)
+        rectangle = shapes.Rectangle(5, 10)
         result = rectangle.perimeter()                                        
         self.assertEqual(result, 30)
 
@@ -43,7 +43,7 @@ class TestRectangle(unittest.TestCase):
 class TestTrapezoid(unittest.TestCase):
 
     def test_area(self):
-        trapezoid = Shapes.Trapezoid(5, 10, 7)
+        trapezoid = shapes.Trapezoid(5, 10, 7)
         result = trapezoid.area()                                        
         self.assertEqual(result, 52.5)
 
@@ -51,12 +51,12 @@ class TestTrapezoid(unittest.TestCase):
 class TestRhombus(unittest.TestCase):
 
     def test_area(self):
-        rhombus = Shapes.Rhombus(5, 10)
+        rhombus = shapes.Rhombus(5, 10)
         result = rhombus.area()                                        
         self.assertEqual(result, 50)
     
     def test_perimeter(self):
-        rhombus = Shapes.Rhombus(5, 10)
+        rhombus = shapes.Rhombus(5, 10)
         result = rhombus.perimeter()                                        
         self.assertEqual(result, 30)
 
@@ -64,7 +64,7 @@ class TestRhombus(unittest.TestCase):
 class TestTriangle(unittest.TestCase):
 
     def test_area(self):
-        triangle = Shapes.Triangle(5, 10)
+        triangle = shapes.Triangle(5, 10)
         result = triangle.area()                                        
         self.assertEqual(result, 25)
 
@@ -72,7 +72,7 @@ class TestTriangle(unittest.TestCase):
 class TestParallelepiped(unittest.TestCase):
 
     def test_area(self):
-        parallelepiped = Shapes.Parallelepiped(5, 10, 7)
+        parallelepiped = shapes.Parallelepiped(5, 10, 7)
         result = parallelepiped.area()                                        
         self.assertEqual(result, 350)
     
@@ -80,12 +80,12 @@ class TestParallelepiped(unittest.TestCase):
 class TestPyramid(unittest.TestCase):
 
     def test_area(self):
-        pyramid = Shapes.Pyramid(6, 5)
+        pyramid = shapes.Pyramid(6, 5)
         result = pyramid.area()                                        
         self.assertEqual(result, 84)
     
     def test_perimeter(self):
-        pyramid = Shapes.Pyramid(6, 5)
+        pyramid = shapes.Pyramid(6, 5)
         result = pyramid.perimeter()                                        
         self.assertEqual(result, 44)
 
@@ -93,12 +93,12 @@ class TestPyramid(unittest.TestCase):
 class TestCircle(unittest.TestCase):
 
     def test_area(self):
-        circle = Shapes.Circle(5)
+        circle = shapes.Circle(5)
         result = circle.area()                                        
         self.assertEqual(result, 78.5)
 
     def test_perimeter(self):
-        circle = Shapes.Circle(5)
+        circle = shapes.Circle(5)
         result = circle.perimeter()                                        
         self.assertEqual(result, 31.4)
 
@@ -106,7 +106,7 @@ class TestCircle(unittest.TestCase):
 class TestSphere(unittest.TestCase):
 
     def test_area(self):
-        sphere = Shapes.Sphere(5)
+        sphere = shapes.Sphere(5)
         result = sphere.area()                                        
         self.assertEqual(result, 314.0)
 
@@ -114,7 +114,7 @@ class TestSphere(unittest.TestCase):
 class TestCylinder(unittest.TestCase):
 
     def test_area(self):
-        cylinder = Shapes.Cylinder(5,10)
+        cylinder = shapes.Cylinder(5,10)
         result = cylinder.area()                                        
         self.assertEqual(result, 471.0)
 
@@ -122,6 +122,6 @@ class TestCylinder(unittest.TestCase):
 class TestCone(unittest.TestCase):
 
     def test_area(self):
-        cone = Shapes.Cone(5, 10)
+        cone = shapes.Cone(5, 10)
         result = cone.area()                                        
         self.assertEqual(result, 254.03134)

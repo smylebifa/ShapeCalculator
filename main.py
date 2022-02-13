@@ -1,4 +1,4 @@
-import shapeslib as shapes
+import shapes_lib as shapes
 
 my_shapes = {
     1 : 'Square', 
@@ -15,7 +15,7 @@ my_shapes = {
     12 : 'Cone',    
     }
 
-while (True):
+while True:
 
     # Display shapes for user
     print("Shapes:")
@@ -48,14 +48,14 @@ while (True):
             print()
 
     # Calculate user need
-    if (type_of_calculation == 2):
+    if type_of_calculation == 2:
         shape = shapes.define_shape(my_shapes[shape_number])
-        if (shape != 0):
+        if shape != 0:
             print(f"Area of {my_shapes[shape_number]} = {shape.area()}")
         
     else:
         shape = shapes.define_shape(my_shapes[shape_number])
-        if (shape != 0):
+        if shape != 0:
             print(f"Perimeter of {my_shapes[shape_number]} = {shape.perimeter()}")
 
     print()
@@ -70,7 +70,7 @@ while (True):
             print('Incorrect value. Please, try again.')
             print()
 
-    if (is_continue == 'n'):
+    if is_continue == 'n':
         break;
 
     print("\n" * 100)
